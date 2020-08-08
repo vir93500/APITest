@@ -1,0 +1,67 @@
+2020-08-08 21:30:00 INFO  CreateUserApiHelper:33 - requestBody----------->io.restassured.builder.RequestSpecBuilder@5a755cc1
+2020-08-08 21:30:00 DEBUG BasicClientConnectionManager:164 - Get connection for route {s}->https://gorest.co.in:443
+2020-08-08 21:30:01 DEBUG DefaultClientConnectionOperator:176 - Connecting to gorest.co.in:443
+2020-08-08 21:30:01 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2020-08-08 21:30:01 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-08-08 21:30:01 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2020-08-08 21:30:01 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2020-08-08 21:30:01 DEBUG DefaultClientConnection:276 - Sending request: POST /public-api/users HTTP/1.1
+2020-08-08 21:30:01 DEBUG wire:72 -  >> "POST /public-api/users HTTP/1.1[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  >> "Authorization: Bearer dMgNM7IS-dJ_G0ov_vIfwkWn742jYQWSF7P4[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  >> "Content-Length: 126[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  >> "Host: gorest.co.in[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_265)[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  >> "[\r][\n]"
+2020-08-08 21:30:01 DEBUG headers:280 - >> POST /public-api/users HTTP/1.1
+2020-08-08 21:30:01 DEBUG headers:283 - >> Authorization: Bearer dMgNM7IS-dJ_G0ov_vIfwkWn742jYQWSF7P4
+2020-08-08 21:30:01 DEBUG headers:283 - >> Accept: */*
+2020-08-08 21:30:01 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2020-08-08 21:30:01 DEBUG headers:283 - >> Content-Length: 126
+2020-08-08 21:30:01 DEBUG headers:283 - >> Host: gorest.co.in
+2020-08-08 21:30:01 DEBUG headers:283 - >> Connection: Keep-Alive
+2020-08-08 21:30:01 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_265)
+2020-08-08 21:30:01 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2020-08-08 21:30:01 DEBUG wire:86 -  >> "{"first_name":"ABDerwre 1kohlwi234","last_name":"Kohli","gender":"male","email":"ABD1erwewr3w342@gmail.com","status":"active"}"
+2020-08-08 21:30:01 DEBUG wire:72 -  << "HTTP/1.1 302 Moved Temporarily[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  << "Date: Sat, 08 Aug 2020 16:00:01 GMT[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  << "Vary: Accept[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  << "X-Rate-Limit-Limit: 30[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  << "X-Rate-Limit-Remaining: 29[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  << "X-Rate-Limit-Reset: 2[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  << "Location: https://gorest.co.in/public-api/users/90828[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  << "Set-Cookie: _csrf=3ea720fbcc0924d45a2b5bd5cc909c95c2157890be7880d0c052cce4018c93c6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NBl2H4dPG0AQ0wuOdTrWZ32xb4_NW7p2%22%3B%7D; path=/; HttpOnly[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  << "X-Frame-Options: sameorigin[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  << "[\r][\n]"
+2020-08-08 21:30:01 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 302 Moved Temporarily
+2020-08-08 21:30:01 DEBUG headers:264 - << HTTP/1.1 302 Moved Temporarily
+2020-08-08 21:30:01 DEBUG headers:267 - << Server: nginx
+2020-08-08 21:30:01 DEBUG headers:267 - << Date: Sat, 08 Aug 2020 16:00:01 GMT
+2020-08-08 21:30:01 DEBUG headers:267 - << Content-Type: application/json; charset=UTF-8
+2020-08-08 21:30:01 DEBUG headers:267 - << Transfer-Encoding: chunked
+2020-08-08 21:30:01 DEBUG headers:267 - << Connection: keep-alive
+2020-08-08 21:30:01 DEBUG headers:267 - << Vary: Accept
+2020-08-08 21:30:01 DEBUG headers:267 - << X-Rate-Limit-Limit: 30
+2020-08-08 21:30:01 DEBUG headers:267 - << X-Rate-Limit-Remaining: 29
+2020-08-08 21:30:01 DEBUG headers:267 - << X-Rate-Limit-Reset: 2
+2020-08-08 21:30:01 DEBUG headers:267 - << Location: https://gorest.co.in/public-api/users/90828
+2020-08-08 21:30:01 DEBUG headers:267 - << Set-Cookie: _csrf=3ea720fbcc0924d45a2b5bd5cc909c95c2157890be7880d0c052cce4018c93c6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NBl2H4dPG0AQ0wuOdTrWZ32xb4_NW7p2%22%3B%7D; path=/; HttpOnly
+2020-08-08 21:30:01 DEBUG headers:267 - << X-Frame-Options: sameorigin
+2020-08-08 21:30:01 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2020-08-08 21:30:01 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json; charset=UTF-8
+2020-08-08 21:30:01 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-08-08 21:30:01 DEBUG wire:72 -  << "25c[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:86 -  << "{"_meta":{"success":true,"code":201,"message":"A resource was successfully created in response to a POST request. The Location header contains the URL pointing to the newly created resource.","rateLimit":{"limit":30,"remaining":29,"reset":2}},"result":{"id":"90828","first_name":"ABDerwre 1kohlwi234","last_name":"Kohli","gender":"male","dob":null,"email":"ABD1erwewr3w342@gmail.com","phone":null,"website":null,"address":null,"status":"active","_links":{"self":{"href":"https://gorest.co.in/public-api/users/90828"},"edit":{"href":"https://gorest.co.in/public-api/users/90828"},"avatar":{"href":null}}}}"
+2020-08-08 21:30:01 DEBUG wire:72 -  << "[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  << "0[\r][\n]"
+2020-08-08 21:30:01 DEBUG wire:72 -  << "[\r][\n]"
+2020-08-08 21:30:01 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@486be205
+2020-08-08 21:30:01 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2020-08-08 21:30:01 INFO  CreateUserApiHelper:35 - response body----------->{"_meta":{"success":true,"code":201,"message":"A resource was successfully created in response to a POST request. The Location header contains the URL pointing to the newly created resource.","rateLimit":{"limit":30,"remaining":29,"reset":2}},"result":{"id":"90828","first_name":"ABDerwre 1kohlwi234","last_name":"Kohli","gender":"male","dob":null,"email":"ABD1erwewr3w342@gmail.com","phone":null,"website":null,"address":null,"status":"active","_links":{"self":{"href":"https://gorest.co.in/public-api/users/90828"},"edit":{"href":"https://gorest.co.in/public-api/users/90828"},"avatar":{"href":null}}}}

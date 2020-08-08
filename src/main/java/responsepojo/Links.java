@@ -1,0 +1,43 @@
+package responsepojo;
+
+public class Links {
+
+    public Links() {
+    }
+
+    public Self self;
+
+    public Self getSelf() {
+        return self;
+    }
+
+    public void setSelf(Self self) {
+        this.self = self;
+    }
+
+    public Links(Self self, Edit edit, Avatar avatar) {
+        this.self = self;
+        this.edit = edit;
+        this.avatar = avatar;
+    }
+
+    public Edit getEdit() {
+        return edit;
+    }
+
+    public void setEdit(Edit edit) {
+        this.edit = edit;
+    }
+
+    public Avatar getAvatar() {
+        return avatar;
+    }
+
+    public void setAvatar(Avatar avatar) {
+        this.avatar = avatar;
+    }
+
+    public Edit edit;
+    public Avatar avatar;
+
+}
