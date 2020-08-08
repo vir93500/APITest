@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestApiClass.UserCreationApi" time="3.104" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/virendrakushwaha/Documents/AAA/QE-ApiTesting/target/test-classes:/home/virendrakushwaha/Documents/AAA/QE-ApiTesting/target/classes:/home/virendrakushwaha/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/home/virendrakushwaha/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/virendrakushwaha/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/home/virendrakushwaha/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/virendrakushwaha/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/virendrakushwaha/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/home/virendrakushwaha/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/home/virendrakushwaha/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/home/virendrakushwaha/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/home/virendrakushwaha/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/home/virendrakushwaha/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/home/virendrakushwaha/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/home/virendrakushwaha/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/home/virendrakushwaha/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/home/virendrakushwaha/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/virendrakushwaha/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/home/virendrakushwaha/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/home/virendrakushwaha/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/home/virendrakushwaha/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/home/virendrakushwaha/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/home/virendrakushwaha/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:/home/virendrakushwaha/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:/home/virendrakushwaha/.m2/repository/io/rest-assured/rest-assured/3.1.1/rest-assured-3.1.1.jar:/home/virendrakushwaha/.m2/repository/org/codehaus/groovy/groovy/2.4.12/groovy-2.4.12.jar:/home/virendrakushwaha/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.12/groovy-xml-2.4.12.jar:/home/virendrakushwaha/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/virendrakushwaha/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/virendrakushwaha/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/virendrakushwaha/.m2/repository/io/rest-assured/json-path/3.1.1/json-path-3.1.1.jar:/home/virendrakushwaha/.m2/repository/org/codehaus/groovy/groovy-json/2.4.12/groovy-json-2.4.12.jar:/home/virendrakushwaha/.m2/repository/io/rest-assured/rest-assured-common/3.1.1/rest-assured-common-3.1.1.jar:/home/virendrakushwaha/.m2/repository/io/rest-assured/xml-path/3.1.1/xml-path-3.1.1.jar:/home/virendrakushwaha/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/virendrakushwaha/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/home/virendrakushwaha/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/virendrakushwaha/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/home/virendrakushwaha/.m2/repository/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar:/home/virendrakushwaha/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/home/virendrakushwaha/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/virendrakushwaha/Documents/AAA/QE-ApiTesting/target/surefire/surefirebooter7839337968473631269.jar /home/virendrakushwaha/Documents/AAA/QE-ApiTesting/target/surefire 2020-08-08T23-50-07_685-jvmRun1 surefire7048630937305967801tmp surefire_0425399540989531699tmp"/>
+    <property name="test" value="TestApiClass.UserCreationApi"/>
+    <property name="surefire.test.class.path" value="/home/virendrakushwaha/Documents/AAA/QE-ApiTesting/target/test-classes:/home/virendrakushwaha/Documents/AAA/QE-ApiTesting/target/classes:/home/virendrakushwaha/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/home/virendrakushwaha/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/virendrakushwaha/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/home/virendrakushwaha/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/virendrakushwaha/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/virendrakushwaha/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/home/virendrakushwaha/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/home/virendrakushwaha/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/home/virendrakushwaha/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/home/virendrakushwaha/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/home/virendrakushwaha/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/home/virendrakushwaha/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/home/virendrakushwaha/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/home/virendrakushwaha/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/home/virendrakushwaha/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/virendrakushwaha/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/home/virendrakushwaha/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/home/virendrakushwaha/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/home/virendrakushwaha/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/home/virendrakushwaha/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/home/virendrakushwaha/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:/home/virendrakushwaha/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:/home/virendrakushwaha/.m2/repository/io/rest-assured/rest-assured/3.1.1/rest-assured-3.1.1.jar:/home/virendrakushwaha/.m2/repository/org/codehaus/groovy/groovy/2.4.12/groovy-2.4.12.jar:/home/virendrakushwaha/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.12/groovy-xml-2.4.12.jar:/home/virendrakushwaha/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/virendrakushwaha/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/virendrakushwaha/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/virendrakushwaha/.m2/repository/io/rest-assured/json-path/3.1.1/json-path-3.1.1.jar:/home/virendrakushwaha/.m2/repository/org/codehaus/groovy/groovy-json/2.4.12/groovy-json-2.4.12.jar:/home/virendrakushwaha/.m2/repository/io/rest-assured/rest-assured-common/3.1.1/rest-assured-common-3.1.1.jar:/home/virendrakushwaha/.m2/repository/io/rest-assured/xml-path/3.1.1/xml-path-3.1.1.jar:/home/virendrakushwaha/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/virendrakushwaha/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/home/virendrakushwaha/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/virendrakushwaha/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/home/virendrakushwaha/.m2/repository/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar:/home/virendrakushwaha/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/home/virendrakushwaha/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/virendrakushwaha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="basedir" value="/home/virendrakushwaha/Documents/AAA/QE-ApiTesting"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/virendrakushwaha/Documents/AAA/QE-ApiTesting/target/surefire/surefirebooter7839337968473631269.jar"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_265-8u265-b01-0ubuntu2~18.04-b01"/>
+    <property name="user.name" value="virendrakushwaha"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.15.0-112-generic"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/virendrakushwaha/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_265"/>
+    <property name="user.dir" value="/home/virendrakushwaha/Documents/AAA/QE-ApiTesting"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.version" value="25.265-b01"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="postiveScenario" classname="TestApiClass.UserCreationApi" time="2.45">
+    <failure message="Cannot deserialize instance of `responsepojo.Result` out of START_ARRAY token&#10; at [Source: (String)&quot;{&quot;_meta&quot;:{&quot;success&quot;:false,&quot;code&quot;:422,&quot;message&quot;:&quot;Data validation failed. Please check the response body for detailed error messages.&quot;,&quot;rateLimit&quot;:{&quot;limit&quot;:30,&quot;remaining&quot;:29,&quot;reset&quot;:2}},&quot;result&quot;:[{&quot;field&quot;:&quot;email&quot;,&quot;message&quot;:&quot;Email \&quot;ABD1erwewr3w342@gmail.com\&quot; has already been taken.&quot;}]}&quot;; line: 1, column: 194] (through reference chain: responsepojo.UserCreationReponse[&quot;result&quot;])" type="com.fasterxml.jackson.databind.exc.MismatchedInputException">com.fasterxml.jackson.databind.exc.MismatchedInputException: 
+Cannot deserialize instance of `responsepojo.Result` out of START_ARRAY token
+ at [Source: (String)"{"_meta":{"success":false,"code":422,"message":"Data validation failed. Please check the response body for detailed error messages.","rateLimit":{"limit":30,"remaining":29,"reset":2}},"result":[{"field":"email","message":"Email \"ABD1erwewr3w342@gmail.com\" has already been taken."}]}"; line: 1, column: 194] (through reference chain: responsepojo.UserCreationReponse["result"])
+	at TestApiClass.UserCreationApi.postiveScenario(UserCreationApi.java:33)
+</failure>
+    <system-out><![CDATA[2020-08-08 23:50:09 INFO  CreateUserApiHelper:33 - requestBody----------->io.restassured.builder.RequestSpecBuilder@22f31dec
+Request method:	POST
+Request URI:	https://gorest.co.in/public-api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer dMgNM7IS-dJ_G0ov_vIfwkWn742jYQWSF7P4
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "first_name": "ABDerwre 1kohlwi234",
+    "last_name": "Kohli",
+    "gender": "male",
+    "email": "ABD1erwewr3w342@gmail.com",
+    "status": "active"
+}
+2020-08-08 23:50:09 DEBUG BasicClientConnectionManager:164 - Get connection for route {s}->https://gorest.co.in:443
+2020-08-08 23:50:10 DEBUG DefaultClientConnectionOperator:176 - Connecting to gorest.co.in:443
+2020-08-08 23:50:10 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2020-08-08 23:50:10 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-08-08 23:50:10 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2020-08-08 23:50:10 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2020-08-08 23:50:10 DEBUG DefaultClientConnection:276 - Sending request: POST /public-api/users HTTP/1.1
+2020-08-08 23:50:10 DEBUG wire:72 -  >> "POST /public-api/users HTTP/1.1[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  >> "Authorization: Bearer dMgNM7IS-dJ_G0ov_vIfwkWn742jYQWSF7P4[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  >> "Content-Length: 126[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  >> "Host: gorest.co.in[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_265)[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  >> "[\r][\n]"
+2020-08-08 23:50:10 DEBUG headers:280 - >> POST /public-api/users HTTP/1.1
+2020-08-08 23:50:10 DEBUG headers:283 - >> Authorization: Bearer dMgNM7IS-dJ_G0ov_vIfwkWn742jYQWSF7P4
+2020-08-08 23:50:10 DEBUG headers:283 - >> Accept: */*
+2020-08-08 23:50:10 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2020-08-08 23:50:10 DEBUG headers:283 - >> Content-Length: 126
+2020-08-08 23:50:10 DEBUG headers:283 - >> Host: gorest.co.in
+2020-08-08 23:50:10 DEBUG headers:283 - >> Connection: Keep-Alive
+2020-08-08 23:50:10 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_265)
+2020-08-08 23:50:10 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2020-08-08 23:50:10 DEBUG wire:86 -  >> "{"first_name":"ABDerwre 1kohlwi234","last_name":"Kohli","gender":"male","email":"ABD1erwewr3w342@gmail.com","status":"active"}"
+2020-08-08 23:50:10 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  << "Date: Sat, 08 Aug 2020 18:20:10 GMT[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  << "Vary: Accept[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  << "X-Rate-Limit-Limit: 30[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  << "X-Rate-Limit-Remaining: 29[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  << "X-Rate-Limit-Reset: 2[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  << "Set-Cookie: _csrf=64ea20d8f429e191d782de505f5ed24bb8a2ed7028e7624c520156e4d105fd15a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Al7wUwIvR4x1JXNmpUXqKuhDyNcUXa51%22%3B%7D; path=/; HttpOnly[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  << "X-Frame-Options: sameorigin[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  << "[\r][\n]"
+2020-08-08 23:50:10 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2020-08-08 23:50:10 DEBUG headers:264 - << HTTP/1.1 200 OK
+2020-08-08 23:50:10 DEBUG headers:267 - << Server: nginx
+2020-08-08 23:50:10 DEBUG headers:267 - << Date: Sat, 08 Aug 2020 18:20:10 GMT
+2020-08-08 23:50:10 DEBUG headers:267 - << Content-Type: application/json; charset=UTF-8
+2020-08-08 23:50:10 DEBUG headers:267 - << Transfer-Encoding: chunked
+2020-08-08 23:50:10 DEBUG headers:267 - << Connection: keep-alive
+2020-08-08 23:50:10 DEBUG headers:267 - << Vary: Accept-Encoding
+2020-08-08 23:50:10 DEBUG headers:267 - << Vary: Accept
+2020-08-08 23:50:10 DEBUG headers:267 - << X-Rate-Limit-Limit: 30
+2020-08-08 23:50:10 DEBUG headers:267 - << X-Rate-Limit-Remaining: 29
+2020-08-08 23:50:10 DEBUG headers:267 - << X-Rate-Limit-Reset: 2
+2020-08-08 23:50:10 DEBUG headers:267 - << Set-Cookie: _csrf=64ea20d8f429e191d782de505f5ed24bb8a2ed7028e7624c520156e4d105fd15a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Al7wUwIvR4x1JXNmpUXqKuhDyNcUXa51%22%3B%7D; path=/; HttpOnly
+2020-08-08 23:50:10 DEBUG headers:267 - << X-Frame-Options: sameorigin
+2020-08-08 23:50:10 DEBUG headers:267 - << Content-Encoding: gzip
+2020-08-08 23:50:10 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2020-08-08 23:50:10 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json; charset=UTF-8
+2020-08-08 23:50:10 DEBUG wire:72 -  << "de[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:86 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]M[0x8e][0xbb]N[0xc4]0[0x10]Ee4u[0x14][0x81][0xb3][\r][0xa9][0x0]-[0x1d][0x5]=[0x8b][0xd0][0xac]}[0x93]X[0xeb][0x7][0xb2][0xbd]D([0xca][0xbf]c[0x3][0x5][0xdd][0x9c]3W3w[0xe3]w[0x8f]"<n[0x9c][0xaf]Z#g[0x1e]'q[0x19][0x1d][0xeb]h[0xc0][0xe3]A[0xa9][0x8e]}[0xf5]2W[0xe2][0xa3][0x14][0xa1]Oq[0xd6]H[0xb1]1[0xd0]$[0xd6][0xc1][0xf4][0xf4][0xe2] [0x19][0xa4][0x17][0xe8][0xb][0x95][0x5][0x94][0x90]?b[0xa8][0xea][0x1c][0xcd][0x17]M1[0x91][0xa9]Z[0x98][0x90]R[0xc5][0xbf][0x9b][0xb9][0xe7][0x8e][0x93][0x14]<[oK[0xeb][0xe1]~[0x87][0xe1][0xa6]zx[0xb1][0xc1][0x86][0x99]Gu[0xd7]0[0xa3]n[0xd4][0xbe][0xff][0xcc]WW[0xe1]u[0xe3][0xc9][0xc2][0x99][0xda][0xad][0x85][0x1d][0xff]o[0xfb][0xd4][0xc][0x9d][0xf8][0xe1][0xf1]x[0x8b][0xb4]bM[0xc3]:[0x1c][0xd4][0xfd][0xdc]|[0xaf][0xa3]?1-[0x92]I\[0x82][0xd4][0x9a]g P[0x91][0xb]B[0xcf][0xfb][0xdb][0xfe][\r][0xb2][0xb0][0x12]k[0x1d][0x1][0x0][0x0]"
+2020-08-08 23:50:10 DEBUG wire:72 -  << "[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  << "0[\r][\n]"
+2020-08-08 23:50:10 DEBUG wire:72 -  << "[\r][\n]"
+2020-08-08 23:50:10 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-08-08 23:50:10 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6d6bc158
+2020-08-08 23:50:10 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2020-08-08 23:50:10 INFO  CreateUserApiHelper:35 - response body----------->{"_meta":{"success":false,"code":422,"message":"Data validation failed. Please check the response body for detailed error messages.","rateLimit":{"limit":30,"remaining":29,"reset":2}},"result":[{"field":"email","message":"Email \"ABD1erwewr3w342@gmail.com\" has already been taken."}]}
+]]></system-out>
+  </testcase>
+</testsuite>

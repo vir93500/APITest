@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Express FD Regressions TestSuite" parallel="tests" thread-count="3">
+
+<test name="Service Test">
+<packages>
+    <package name="TestApiClass"></package>
+</packages>
+</test>
+
+  <!--<test name="ProductSelection Service Test">
+        <packages>
+            <package name="com.axis.fd.productSelection"></package>
+        </packages>
+</test>-->
+</suite>
+
+

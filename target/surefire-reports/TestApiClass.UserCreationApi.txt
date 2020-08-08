@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestApiClass.UserCreationApi
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.104 s <<< FAILURE! - in TestApiClass.UserCreationApi
+postiveScenario(TestApiClass.UserCreationApi)  Time elapsed: 2.45 s  <<< FAILURE!
+com.fasterxml.jackson.databind.exc.MismatchedInputException: 
+Cannot deserialize instance of `responsepojo.Result` out of START_ARRAY token
+ at [Source: (String)"{"_meta":{"success":false,"code":422,"message":"Data validation failed. Please check the response body for detailed error messages.","rateLimit":{"limit":30,"remaining":29,"reset":2}},"result":[{"field":"email","message":"Email \"ABD1erwewr3w342@gmail.com\" has already been taken."}]}"; line: 1, column: 194] (through reference chain: responsepojo.UserCreationReponse["result"])
+	at TestApiClass.UserCreationApi.postiveScenario(UserCreationApi.java:33)
+
