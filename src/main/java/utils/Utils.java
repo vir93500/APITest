@@ -62,7 +62,7 @@ public class Utils extends TestSetup {
         SimpleDateFormat f = new SimpleDateFormat("yyyyMMdd_HHmmss");
         String timestamp = f.format(new Date());
         File file = new File("./extentreport.html");
-        file.renameTo(new File("./src/main/resources/report/" +"extentreport_" + timestamp + ".html"));
+        file.renameTo(new File("./src/main/resources/report/" +"extentreport.html"));
 
     }
 
