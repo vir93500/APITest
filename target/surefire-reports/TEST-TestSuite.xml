@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.722" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.265-b01"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/virendrakushwaha/Documents/AAA/QE-ApiTesting"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/virendrakushwaha/Documents/AAA/QE-ApiTesting"/>
+    <property name="java.runtime.version" value="1.8.0_265-8u265-b01-0ubuntu2~18.04-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="suiteXmlFile" value="ExpressFD.xml"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.15.0-112-generic"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/virendrakushwaha"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="virendrakushwaha"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -DsuiteXmlFile=ExpressFD.xml"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_265"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="postiveScenario" classname="TestApiClass.UserCreationApi" time="2.326">
+    <failure message="Cannot deserialize instance of `responsepojo.Result` out of START_ARRAY token&#10; at [Source: (String)&quot;{&quot;_meta&quot;:{&quot;success&quot;:false,&quot;code&quot;:422,&quot;message&quot;:&quot;Data validation failed. Please check the response body for detailed error messages.&quot;,&quot;rateLimit&quot;:{&quot;limit&quot;:30,&quot;remaining&quot;:29,&quot;reset&quot;:2}},&quot;result&quot;:[{&quot;field&quot;:&quot;email&quot;,&quot;message&quot;:&quot;Email \&quot;ABD1erwewr3w342@gmail.com\&quot; has already been taken.&quot;}]}&quot;; line: 1, column: 194] (through reference chain: responsepojo.UserCreationReponse[&quot;result&quot;])" type="com.fasterxml.jackson.databind.exc.MismatchedInputException">com.fasterxml.jackson.databind.exc.MismatchedInputException: 
+Cannot deserialize instance of `responsepojo.Result` out of START_ARRAY token
+ at [Source: (String)"{"_meta":{"success":false,"code":422,"message":"Data validation failed. Please check the response body for detailed error messages.","rateLimit":{"limit":30,"remaining":29,"reset":2}},"result":[{"field":"email","message":"Email \"ABD1erwewr3w342@gmail.com\" has already been taken."}]}"; line: 1, column: 194] (through reference chain: responsepojo.UserCreationReponse["result"])
+	at TestApiClass.UserCreationApi.postiveScenario(UserCreationApi.java:33)
+</failure>
+    <system-out><![CDATA[2020-08-09 13:57:19 INFO  CreateUserApiHelper:33 - requestBody----------->io.restassured.builder.RequestSpecBuilder@26ea9270
+Request method:	POST
+Request URI:	https://gorest.co.in/public-api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer dMgNM7IS-dJ_G0ov_vIfwkWn742jYQWSF7P4
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "first_name": "ABDerwre 1kohlwi234",
+    "last_name": "Kohli",
+    "gender": "male",
+    "email": "ABD1erwewr3w342@gmail.com",
+    "status": "active"
+}
+2020-08-09 13:57:19 DEBUG BasicClientConnectionManager:164 - Get connection for route {s}->https://gorest.co.in:443
+2020-08-09 13:57:19 DEBUG DefaultClientConnectionOperator:176 - Connecting to gorest.co.in:443
+2020-08-09 13:57:20 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2020-08-09 13:57:20 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-08-09 13:57:20 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2020-08-09 13:57:20 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2020-08-09 13:57:20 DEBUG DefaultClientConnection:276 - Sending request: POST /public-api/users HTTP/1.1
+2020-08-09 13:57:20 DEBUG wire:72 -  >> "POST /public-api/users HTTP/1.1[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  >> "Authorization: Bearer dMgNM7IS-dJ_G0ov_vIfwkWn742jYQWSF7P4[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  >> "Content-Length: 126[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  >> "Host: gorest.co.in[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_265)[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  >> "[\r][\n]"
+2020-08-09 13:57:20 DEBUG headers:280 - >> POST /public-api/users HTTP/1.1
+2020-08-09 13:57:20 DEBUG headers:283 - >> Authorization: Bearer dMgNM7IS-dJ_G0ov_vIfwkWn742jYQWSF7P4
+2020-08-09 13:57:20 DEBUG headers:283 - >> Accept: */*
+2020-08-09 13:57:20 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2020-08-09 13:57:20 DEBUG headers:283 - >> Content-Length: 126
+2020-08-09 13:57:20 DEBUG headers:283 - >> Host: gorest.co.in
+2020-08-09 13:57:20 DEBUG headers:283 - >> Connection: Keep-Alive
+2020-08-09 13:57:20 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_265)
+2020-08-09 13:57:20 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2020-08-09 13:57:20 DEBUG wire:86 -  >> "{"first_name":"ABDerwre 1kohlwi234","last_name":"Kohli","gender":"male","email":"ABD1erwewr3w342@gmail.com","status":"active"}"
+2020-08-09 13:57:20 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  << "Date: Sun, 09 Aug 2020 08:27:20 GMT[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  << "Vary: Accept[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  << "X-Rate-Limit-Limit: 30[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  << "X-Rate-Limit-Remaining: 29[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  << "X-Rate-Limit-Reset: 2[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  << "Set-Cookie: _csrf=9a0ac764fc51ed2ef09c03fbe2a90555fa1727ca79780f1dcea05c352bf245bba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I_2PXwddCPYPWMsfEM9ZhZFwb3_onc54%22%3B%7D; path=/; HttpOnly[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  << "X-Frame-Options: sameorigin[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  << "[\r][\n]"
+2020-08-09 13:57:20 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2020-08-09 13:57:20 DEBUG headers:264 - << HTTP/1.1 200 OK
+2020-08-09 13:57:20 DEBUG headers:267 - << Server: nginx
+2020-08-09 13:57:20 DEBUG headers:267 - << Date: Sun, 09 Aug 2020 08:27:20 GMT
+2020-08-09 13:57:20 DEBUG headers:267 - << Content-Type: application/json; charset=UTF-8
+2020-08-09 13:57:20 DEBUG headers:267 - << Transfer-Encoding: chunked
+2020-08-09 13:57:20 DEBUG headers:267 - << Connection: keep-alive
+2020-08-09 13:57:20 DEBUG headers:267 - << Vary: Accept-Encoding
+2020-08-09 13:57:20 DEBUG headers:267 - << Vary: Accept
+2020-08-09 13:57:20 DEBUG headers:267 - << X-Rate-Limit-Limit: 30
+2020-08-09 13:57:20 DEBUG headers:267 - << X-Rate-Limit-Remaining: 29
+2020-08-09 13:57:20 DEBUG headers:267 - << X-Rate-Limit-Reset: 2
+2020-08-09 13:57:20 DEBUG headers:267 - << Set-Cookie: _csrf=9a0ac764fc51ed2ef09c03fbe2a90555fa1727ca79780f1dcea05c352bf245bba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I_2PXwddCPYPWMsfEM9ZhZFwb3_onc54%22%3B%7D; path=/; HttpOnly
+2020-08-09 13:57:20 DEBUG headers:267 - << X-Frame-Options: sameorigin
+2020-08-09 13:57:20 DEBUG headers:267 - << Content-Encoding: gzip
+2020-08-09 13:57:20 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2020-08-09 13:57:20 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json; charset=UTF-8
+2020-08-09 13:57:20 DEBUG wire:72 -  << "de[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:86 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]M[0x8e][0xbb]N[0xc4]0[0x10]Ee4u[0x14][0x81][0xb3][\r][0xa9][0x0]-[0x1d][0x5]=[0x8b][0xd0][0xac]}[0x93]X[0xeb][0x7][0xb2][0xbd]D([0xca][0xbf]c[0x3][0x5][0xdd][0x9c]3W3w[0xe3]w[0x8f]"<n[0x9c][0xaf]Z#g[0x1e]'q[0x19][0x1d][0xeb]h[0xc0][0xe3]A[0xa9][0x8e]}[0xf5]2W[0xe2][0xa3][0x14][0xa1]Oq[0xd6]H[0xb1]1[0xd0]$[0xd6][0xc1][0xf4][0xf4][0xe2] [0x19][0xa4][0x17][0xe8][0xb][0x95][0x5][0x94][0x90]?b[0xa8][0xea][0x1c][0xcd][0x17]M1[0x91][0xa9]Z[0x98][0x90]R[0xc5][0xbf][0x9b][0xb9][0xe7][0x8e][0x93][0x14]<[oK[0xeb][0xe1]~[0x87][0xe1][0xa6]zx[0xb1][0xc1][0x86][0x99]Gu[0xd7]0[0xa3]n[0xd4][0xbe][0xff][0xcc]WW[0xe1]u[0xe3][0xc9][0xc2][0x99][0xda][0xad][0x85][0x1d][0xff]o[0xfb][0xd4][0xc][0x9d][0xf8][0xe1][0xf1]x[0x8b][0xb4]bM[0xc3]:[0x1c][0xd4][0xfd][0xdc]|[0xaf][0xa3]?1-[0x92]I\[0x82][0xd4][0x9a]g P[0x91][0xb]B[0xcf][0xfb][0xdb][0xfe][\r][0xb2][0xb0][0x12]k[0x1d][0x1][0x0][0x0]"
+2020-08-09 13:57:20 DEBUG wire:72 -  << "[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  << "0[\r][\n]"
+2020-08-09 13:57:20 DEBUG wire:72 -  << "[\r][\n]"
+2020-08-09 13:57:20 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-08-09 13:57:20 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@20d5b444
+2020-08-09 13:57:20 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2020-08-09 13:57:20 INFO  CreateUserApiHelper:35 - response body----------->{"_meta":{"success":false,"code":422,"message":"Data validation failed. Please check the response body for detailed error messages.","rateLimit":{"limit":30,"remaining":29,"reset":2}},"result":[{"field":"email","message":"Email \"ABD1erwewr3w342@gmail.com\" has already been taken."}]}
+]]></system-out>
+  </testcase>
+  <testcase name="testcase1" classname="TestApiClass.UserListApi" time="0.696"/>
+</testsuite>

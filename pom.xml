@@ -60,7 +60,13 @@
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
-            <version>2.22.0</version>
+            <version>2.19.1</version>
+            <configuration>
+                <suiteXmlFiles>
+                    <!-- TestNG suite XML files -->
+                    <suiteXmlFile>ExpressFD.xml</suiteXmlFile>
+                </suiteXmlFiles>
+            </configuration>
         </plugin>
     </plugins>
 

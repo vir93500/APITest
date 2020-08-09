@@ -8,12 +8,12 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">2,759</td><td></td><td></td></tr>
+<tr><th colspan="8">Express FD Regressions TestSuite</th></tr>
+<tr><td><a href="#t0">Service Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">3,041</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestApiClass.UserCreationApi</td><td><a href="#m0">postiveScenario</a></td><td rowspan="1">1596910808851</td><td rowspan="1">2442</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Express FD Regressions TestSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Service Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestApiClass.UserCreationApi</td><td><a href="#m0">postiveScenario</a></td><td rowspan="1">1596961638720</td><td rowspan="1">2320</td></tr><tr><th colspan="4">Service Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestApiClass.UserListApi</td><td><a href="#m1">testcase1</a></td><td rowspan="1">1596961641048</td><td rowspan="1">696</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">TestApiClass.UserCreationApi#postiveScenario</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `responsepojo.Result` out of START_ARRAY token
+<h2>Service Test</h2><h3 id="m0">TestApiClass.UserCreationApi#postiveScenario</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `responsepojo.Result` out of START_ARRAY token
  at [Source: (String)&quot;{&quot;_meta&quot;:{&quot;success&quot;:false,&quot;code&quot;:422,&quot;message&quot;:&quot;Data validation failed. Please check the response body for detailed error messages.&quot;,&quot;rateLimit&quot;:{&quot;limit&quot;:30,&quot;remaining&quot;:29,&quot;reset&quot;:2}},&quot;result&quot;:[{&quot;field&quot;:&quot;email&quot;,&quot;message&quot;:&quot;Email \&quot;ABD1erwewr3w342@gmail.com\&quot; has already been taken.&quot;}]}&quot;; line: 1, column: 194] (through reference chain: responsepojo.UserCreationReponse[&quot;result&quot;])
 	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
 	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1464)
@@ -56,6 +56,11 @@
 	at apihelper.CreateUserApiHelper.userCreationReponseGenericResponseDto(CreateUserApiHelper.java:37)
 	at TestApiClass.UserCreationApi.postiveScenario(UserCreationApi.java:33)
 	at java.util.ArrayList.forEach(ArrayList.java:1259)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestApiClass.UserListApi#testcase1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

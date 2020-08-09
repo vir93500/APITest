@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Surefire test</title>
+<title>TestNG:  Service Test</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<h2 align='center'>Service Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Aug 08 23:50:08 IST 2020</td>
+<td>Started on:</td><td>Sun Aug 09 13:57:18 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>2 seconds (2759 ms)</td>
+<tr><td>Total time:</td><td>3 seconds (3041 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -119,8 +119,12 @@ function toggleAllBoxes() {
 	at apihelper.CreateUserApiHelper.userCreationReponseGenericResponseDto(CreateUserApiHelper.java:37)
 	at TestApiClass.UserCreationApi.postiveScenario(UserCreationApi.java:33)
 	at java.util.ArrayList.forEach(ArrayList.java:1259)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1776486598", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1776486598'><pre>com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `responsepojo.Result` out of START_ARRAY token
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1189428007", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1189428007'><pre>com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `responsepojo.Result` out of START_ARRAY token
  at [Source: (String)&quot;{&quot;_meta&quot;:{&quot;success&quot;:false,&quot;code&quot;:422,&quot;message&quot;:&quot;Data validation failed. Please check the response body for detailed error messages.&quot;,&quot;rateLimit&quot;:{&quot;limit&quot;:30,&quot;remaining&quot;:29,&quot;reset&quot;:2}},&quot;result&quot;:[{&quot;field&quot;:&quot;email&quot;,&quot;message&quot;:&quot;Email \&quot;ABD1erwewr3w342@gmail.com\&quot; has already been taken.&quot;}]}&quot;; line: 1, column: 194] (through reference chain: responsepojo.UserCreationReponse[&quot;result&quot;])
 	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
 	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1464)
@@ -178,26 +182,29 @@ function toggleAllBoxes() {
 	at org.testng.TestRunner.privateRun(TestRunner.java:766)
 	at org.testng.TestRunner.run(TestRunner.java:587)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-	at org.testng.TestNG.runSuites(TestNG.java:1039)
-	at org.testng.TestNG.run(TestNG.java:1007)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
 </pre></div></td>
 <td>2</td>
-<td>TestApiClass.UserCreationApi@51565ec2</td></tr>
+<td>TestApiClass.UserCreationApi@78691363</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestApiClass.UserListApi.testcase1()'><b>testcase1</b><br>Test class: TestApiClass.UserListApi</td>
+<td></td>
+<td>0</td>
+<td>TestApiClass.UserListApi@41d477ed</td></tr>
 </table><p>
 </body>
 </html>

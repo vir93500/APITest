@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="2" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="2759" started-at="2020-08-08T23:50:08 IST" finished-at="2020-08-08T23:50:11 IST">
+  <suite name="Express FD Regressions TestSuite" duration-ms="3041" started-at="2020-08-09T13:57:18 IST" finished-at="2020-08-09T13:57:21 IST">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="2759" started-at="2020-08-08T23:50:08 IST" finished-at="2020-08-08T23:50:11 IST">
+    <test name="Service Test" duration-ms="3041" started-at="2020-08-09T13:57:18 IST" finished-at="2020-08-09T13:57:21 IST">
       <class name="TestApiClass.UserCreationApi">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestApiClass.UserCreationApi@51565ec2]" name="beforeSuite" is-config="true" duration-ms="59" started-at="2020-08-08T23:50:08 IST" finished-at="2020-08-08T23:50:08 IST">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestApiClass.UserCreationApi@78691363]" name="beforeSuite" is-config="true" duration-ms="6" started-at="2020-08-09T13:57:18 IST" finished-at="2020-08-09T13:57:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestApiClass.UserCreationApi@51565ec2]" name="beforeClass" is-config="true" duration-ms="2" started-at="2020-08-08T23:50:08 IST" finished-at="2020-08-08T23:50:08 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestApiClass.UserCreationApi@78691363]" name="beforeClass" is-config="true" duration-ms="2" started-at="2020-08-09T13:57:18 IST" finished-at="2020-08-09T13:57:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:TestApiClass.UserCreationApi@51565ec2]" name="beforemethod" is-config="true" duration-ms="2" started-at="2020-08-08T23:50:08 IST" finished-at="2020-08-08T23:50:08 IST">
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:TestApiClass.UserCreationApi@78691363]" name="beforemethod" is-config="true" duration-ms="1" started-at="2020-08-09T13:57:18 IST" finished-at="2020-08-09T13:57:18 IST">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:TestApiClass.UserCreationApi@51565ec2]" name="beforemethod" is-config="true" duration-ms="286" started-at="2020-08-08T23:50:08 IST" finished-at="2020-08-08T23:50:08 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method status="FAIL" signature="postiveScenario()[pri:0, instance:TestApiClass.UserCreationApi@51565ec2]" name="postiveScenario" duration-ms="2442" started-at="2020-08-08T23:50:08 IST" finished-at="2020-08-08T23:50:11 IST">
+        <test-method status="FAIL" signature="postiveScenario()[pri:0, instance:TestApiClass.UserCreationApi@78691363]" name="postiveScenario" duration-ms="2320" started-at="2020-08-09T13:57:18 IST" finished-at="2020-08-09T13:57:21 IST">
           <exception class="com.fasterxml.jackson.databind.exc.MismatchedInputException">
             <message>
               <![CDATA[Cannot deserialize instance of `responsepojo.Result` out of START_ARRAY token
@@ -95,49 +91,79 @@ at java.util.ArrayList.forEach(ArrayList.java:1259)
 at org.testng.TestRunner.privateRun(TestRunner.java:766)
 at org.testng.TestRunner.run(TestRunner.java:587)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
           </exception> <!-- com.fasterxml.jackson.databind.exc.MismatchedInputException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postiveScenario -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestApiClass.UserCreationApi@51565ec2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-08T23:50:11 IST" finished-at="2020-08-08T23:50:11 IST">
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:TestApiClass.UserCreationApi@78691363]" name="beforemethod" is-config="true" duration-ms="0" started-at="2020-08-09T13:57:18 IST" finished-at="2020-08-09T13:57:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestApiClass.UserCreationApi@78691363]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-09T13:57:21 IST" finished-at="2020-08-09T13:57:21 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=postiveScenario status=FAILURE method=UserCreationApi.postiveScenario()[pri:0, instance:TestApiClass.UserCreationApi@51565ec2] output={null}]]]>
+                <![CDATA[[TestResult name=postiveScenario status=FAILURE method=UserCreationApi.postiveScenario()[pri:0, instance:TestApiClass.UserCreationApi@78691363] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestApiClass.UserCreationApi@51565ec2]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-08-08T23:50:11 IST" finished-at="2020-08-08T23:50:11 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestApiClass.UserCreationApi@78691363]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-08-09T13:57:21 IST" finished-at="2020-08-09T13:57:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestApiClass.UserCreationApi@51565ec2]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-08-08T23:50:11 IST" finished-at="2020-08-08T23:50:11 IST">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestApiClass.UserCreationApi@78691363]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-08-09T13:57:21 IST" finished-at="2020-08-09T13:57:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- TestApiClass.UserCreationApi -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+      <class name="TestApiClass.UserListApi">
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:TestApiClass.UserListApi@41d477ed]" name="beforemethod" is-config="true" duration-ms="1" started-at="2020-08-09T13:57:21 IST" finished-at="2020-08-09T13:57:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestApiClass.UserListApi.testcase1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestApiClass.UserListApi@41d477ed]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-08-09T13:57:21 IST" finished-at="2020-08-09T13:57:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:TestApiClass.UserListApi@41d477ed]" name="testcase1" duration-ms="696" started-at="2020-08-09T13:57:21 IST" finished-at="2020-08-09T13:57:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestApiClass.UserListApi@41d477ed]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-09T13:57:21 IST" finished-at="2020-08-09T13:57:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase1 status=SUCCESS method=UserListApi.testcase1()[pri:0, instance:TestApiClass.UserListApi@41d477ed] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestApiClass.UserListApi@41d477ed]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-08-09T13:57:21 IST" finished-at="2020-08-09T13:57:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestApiClass.UserListApi -->
+    </test> <!-- Service Test -->
+  </suite> <!-- Express FD Regressions TestSuite -->
 </testng-results>
