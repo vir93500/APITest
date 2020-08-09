@@ -5,7 +5,6 @@ import apihelper.CreateUserApiHelper;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import requestpojo.UserCreationRequest;
-import responsepojo.GenericResponse;
 import responsepojo.GenericResponseDto;
 import responsepojo.UserCreationReponse;
 

@@ -2,14 +2,9 @@ package TestApiClass;
 
 import Testbase.TestSetup;
 import apihelper.CreateUserApiHelper;
-import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.SignatureAlgorithm;
 import org.testng.annotations.Test;
 import responsepojo.GenericResponseDto;
 import responsepojo.UserLispResponse;
-
-import java.sql.Date;
-import java.util.Map;
 
 public class UserListApi extends TestSetup {
     private CreateUserApiHelper createUserApiHelper;
