@@ -6,10 +6,9 @@
       <class name="TestApiClass.UserCreationApi">
         <methods>
           <include name="beforeClass"/>
+          <include name="setUpBeforeMethod"/>
           <include name="beforemethod"/>
           <include name="beforeSuite"/>
-          <include name="beforemethod"/>
-          <include name="afterClass"/>
           <include name="postiveScenario"/>
           <include name="afterSuite"/>
           <include name="afterMethod"/>

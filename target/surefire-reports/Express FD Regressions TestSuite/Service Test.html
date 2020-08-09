@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Aug 09 13:57:18 IST 2020</td>
+<td>Started on:</td><td>Mon Aug 10 02:04:25 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>3 seconds (3041 ms)</td>
+<tr><td>Total time:</td><td>3 seconds (3100 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -117,14 +117,14 @@ function toggleAllBoxes() {
 	at io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:165)
 	at responsepojo.GenericResponseDto.toClass(GenericResponseDto.java:107)
 	at apihelper.CreateUserApiHelper.userCreationReponseGenericResponseDto(CreateUserApiHelper.java:37)
-	at TestApiClass.UserCreationApi.postiveScenario(UserCreationApi.java:33)
+	at TestApiClass.UserCreationApi.postiveScenario(UserCreationApi.java:32)
 	at java.util.ArrayList.forEach(ArrayList.java:1259)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1189428007", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1189428007'><pre>com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `responsepojo.Result` out of START_ARRAY token
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1041552223", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1041552223'><pre>com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `responsepojo.Result` out of START_ARRAY token
  at [Source: (String)&quot;{&quot;_meta&quot;:{&quot;success&quot;:false,&quot;code&quot;:422,&quot;message&quot;:&quot;Data validation failed. Please check the response body for detailed error messages.&quot;,&quot;rateLimit&quot;:{&quot;limit&quot;:30,&quot;remaining&quot;:29,&quot;reset&quot;:2}},&quot;result&quot;:[{&quot;field&quot;:&quot;email&quot;,&quot;message&quot;:&quot;Email \&quot;ABD1erwewr3w342@gmail.com\&quot; has already been taken.&quot;}]}&quot;; line: 1, column: 194] (through reference chain: responsepojo.UserCreationReponse[&quot;result&quot;])
 	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
 	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1464)
@@ -165,7 +165,7 @@ function toggleAllBoxes() {
 	at io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:165)
 	at responsepojo.GenericResponseDto.toClass(GenericResponseDto.java:107)
 	at apihelper.CreateUserApiHelper.userCreationReponseGenericResponseDto(CreateUserApiHelper.java:37)
-	at TestApiClass.UserCreationApi.postiveScenario(UserCreationApi.java:33)
+	at TestApiClass.UserCreationApi.postiveScenario(UserCreationApi.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -190,8 +190,8 @@ function toggleAllBoxes() {
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 </pre></div></td>
-<td>2</td>
-<td>TestApiClass.UserCreationApi@78691363</td></tr>
+<td>1</td>
+<td>TestApiClass.UserCreationApi@618b19ad</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -204,7 +204,7 @@ function toggleAllBoxes() {
 <td title='TestApiClass.UserListApi.testcase1()'><b>testcase1</b><br>Test class: TestApiClass.UserListApi</td>
 <td></td>
 <td>0</td>
-<td>TestApiClass.UserListApi@41d477ed</td></tr>
+<td>TestApiClass.UserListApi@2d3379b4</td></tr>
 </table><p>
 </body>
 </html>

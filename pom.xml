@@ -71,7 +71,7 @@
             <configuration>
                 <suiteXmlFiles>
                     <!-- TestNG suite XML files -->
-                    <suiteXmlFile>ExpressFD.xml</suiteXmlFile>
+                    <suiteXmlFile>SuiteXMLs/ExpressFD.xml</suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>
         </plugin>
